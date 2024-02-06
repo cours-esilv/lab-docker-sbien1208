@@ -1,0 +1,3 @@
+docker login
+docker tag app sbien1208/lab-docker2
+docker push sbien1208/lab-docker2
