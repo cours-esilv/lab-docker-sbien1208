@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -e WS_BACK_URL=https://sturdy-potato-jj5xwvq9vgg62jpv6-5000.app.github.dev/:5000 --name front-container sbien1208/my-front-app
