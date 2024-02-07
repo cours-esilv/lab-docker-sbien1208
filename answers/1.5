@@ -1,1 +1,2 @@
-docker run -d -p 5000:5000 --name my_container -e CURRENT_ENVIRONMENT=development your_image_name
+docker stop 7cd401ea0acd
+docker run -d -p 5000:5000 -e environment=development tp tp
